@@ -4,6 +4,7 @@
 1️⃣ **Validate & Sanitize Inputs:**
 
 ✔ Prevent SQL Injection & XSS
+
 ✔ Accept only expected formats
 
 2️⃣ **Strong Authentication:**
