@@ -4,79 +4,79 @@
 
 1️⃣ **Validate & Sanitize Inputs:**
 
-✔ Prevent SQL Injection & XSS
+✔ Prevent SQL Injection & XSS.
 
-✔ Accept only expected formats
+✔ Accept only expected formats.
 
 
 
 2️⃣ **Strong Authentication:**
 
-🔑 Use MFA
+🔑 Use MFA.
 
-🔒 Hash passwords with bcrypt
+🔒 Hash passwords with bcrypt.
 
 
 3️⃣ **Proper Authorization:**
 
-👥 Implement RBAC
+👥 Implement RBAC.
 
-🚫 Enforce least privilege
+🚫 Enforce least privilege.
 
 
 
 4️⃣ **Secure Session Management:**
 
-🍪 Use Secure, HttpOnly, SameSite cookies
+🍪 Use Secure, HttpOnly, SameSite cookies.
 
-♻ Regenerate session IDs on login
+♻ Regenerate session IDs on login.
 
 
 
 5️⃣ **Protect Sensitive Data:**
 
-📡 Use HTTPS/TLS
+📡 Use HTTPS/TLS.
 
-🗄 Encrypt data at rest and in transit
+🗄 Encrypt data at rest and in transit.
 
 
 
 6️⃣ **Prevent Common Attacks:**
 
-🛡 SQL Injection (use prepared statements)
+🛡 SQL Injection (use prepared statements).
 
-⚠ XSS (escape output)
+⚠ XSS (escape output).
 
-🔄 CSRF (use CSRF tokens)
+🔄 CSRF (use CSRF tokens).
 
 
 
 7️⃣ **Safe File Upload Handling:**
 
-📁 Restrict file types
+📁 Restrict file types.
 
-🛑 Never store files in executable directories
+🛑 Never store files in executable directories.
 
 
 
 8️⃣ **Security Headers:**
 
-📝 Add CSP, X-Frame-Options, X-Content-Type-Options
+📝 Add CSP, X-Frame-Options, X-Content-Type-Options.
 
-🚧 Prevent clickjacking & content sniffing
+🚧 Prevent clickjacking & content sniffing.
 
 
 
 9️⃣ **Keep Dependencies Updated:**
 
-📦 Patch frameworks & libraries
+📦 Patch frameworks & libraries.
 
-🧰 Use npm audit / pip-audit
+🧰 Use npm audit / pip-audit.
 
 
 
 🔟 **Logging & Error Handling:**
 
-📊 Log errors securely
+📊 Log errors securely.
 
-❌ Never expose stack traces to users
+❌ Never expose stack traces to users.
